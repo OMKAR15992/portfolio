@@ -32,7 +32,8 @@ function App() {
 
       {/* Hero */}
       <section className="hero" id="home">
-        <img src="/Media/profile.png" alt="Profile" className="profile-pic" />
+        {/* <img src="/Media/profile.png" alt="Profile" className="profile-pic" /> */}
+        <img src={`${process.env.PUBLIC_URL}/Media/profile.png`} alt="Profile" className="profile-pic" />
         <h2>Omkar Kotamire</h2>
         <p>Software Developer | .NET | C# | React.js | SQL</p>
         <div className="social-icons">
