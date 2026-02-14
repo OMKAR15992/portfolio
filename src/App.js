@@ -1,8 +1,9 @@
 import React from "react";
 import { TbBrandCSharp } from "react-icons/tb";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaLinkedin, FaGithub } from "react-icons/fa";
-import { SiDotnet, SiJavascript, SiReact, SiNodedotjs, SiHtml5, SiCss3, SiGit, SiLinux, SiMysql } from "react-icons/si";
+import { SiDotnet, SiJavascript, SiReact, SiHtml5, SiCss3, SiGit, SiLinux, SiMysql } from "react-icons/si";
 import "./App.css";
+
 
 function App() {
   return (
@@ -42,14 +43,6 @@ function App() {
         </div>
       </section>
 
-      {/* About */}
-      {/* <section id="about" className="section">
-        <h2>About Me</h2>
-        <p>
-          I am a Software Developer with 2+ years of experience specializing in C#, .NET Framework, .NET Core, ASP.NET MVC, MSSQL, and Web API development. 
-          I love simplifying complex requirements into effective solutions and delivering high-quality software.
-        </p>
-      </section> */}
 
       <section id="about" className="section bg-gray-100 py-12">
   <div className="container mx-auto px-6 text-center">
@@ -67,7 +60,7 @@ function App() {
 </section>
 
       {/* Experience */}
-      <section id="experience" className="section gray-bg">
+      {/* <section id="experience" className="section gray-bg">
         <h2>Experience</h2>
         <div className="card">
           <h3>Kit19 — Remote (Delhi, India)</h3>
@@ -87,13 +80,48 @@ function App() {
             <li>Automated scrolls for OTT events like IPL, ISL, ICC CWC.</li>
           </ul>
         </div>
-      </section>
-
-      {/* Projects */}
-      {/* <section id="portfolio" className="section">
-        <h2>Projects</h2>
-        <p>Projects will be added here soon...</p>
       </section> */}
+
+      {/* Experience */}
+<section id="experience" className="section gray-bg">
+  <h2>Experience</h2>
+
+  {/* NuSummit Technology */}
+  <div className="card">
+    <h3>NuSummit Technology — Client: SBI Life Insurance</h3>
+    <p><strong>Software Developer</strong> | Nov 2025 - Current</p>
+    <ul>
+      <li>Working on the <strong>RinRaksha</strong> insurance project for SBI Life Insurance.</li>
+      <li>Developing and maintaining the <strong>Scrutiny Module</strong> to validate and process policy-related data.</li>
+      <li>Built and enhanced <strong>Data Entry Modules</strong> to capture and manage customer and policy information.</li>
+      <li>Handled bug fixes, enhancements, and performance improvements in existing modules.</li>
+      <li>Collaborating with business teams to understand requirements and implement accurate solutions.</li>
+    </ul>
+  </div>
+
+  {/* Kit19 */}
+  <div className="card">
+    <h3>Kit19 — Remote (Delhi, India)</h3>
+    <p><strong>Software Developer</strong> | May 2025 - Aug 2025</p>
+    <ul>
+      <li>Developed WhatsApp Business Platform with React.js frontend and .NET Core backend.</li>
+      <li>Designed RESTful APIs for messaging, templates, and broadcast workflows.</li>
+      <li>Built a Template Builder UI with validations and live previews.</li>
+    </ul>
+  </div>
+
+  {/* Skandha Media Services */}
+  <div className="card">
+    <h3>Skandha Media Services — Mumbai, India</h3>
+    <p><strong>Software Developer</strong> | Jul 2023 - May 2025</p>
+    <ul>
+      <li>Developed an OnAir Tool using .NET Framework and C# for live broadcasting.</li>
+      <li>Built a web-based playout system using ASP.NET Core and Web APIs.</li>
+      <li>Automated live scrolls for OTT sports events such as IPL, ISL, and ICC CWC.</li>
+    </ul>
+  </div>
+</section>
+
 
       {/* Skills */}
       <section id="skills" className="section gray-bg">
@@ -109,6 +137,7 @@ function App() {
           <div><SiGit /> Git</div>
           <div><SiLinux /> Linux</div>
           <div><SiMysql /> SQL</div>
+          {/* <div><GrOracle/> ORACLE </div> */}
         </div>
       </section>
 
@@ -121,9 +150,9 @@ function App() {
       </section>
 
       {/* Footer */}
-      <footer>
+      {/* <footer>
         <p>Made with ❤️ by Omkar Kotamire</p>
-      </footer>
+      </footer> */}
     </div>
   );
 }
